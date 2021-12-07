@@ -11,6 +11,6 @@
 <a href="https://pages.github.com/" target="_blank" rel="noreferrer"> <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="40" height="40"/> </a>
 
 ## O que é?
-Site institucional e estático para ["Pão de Mel da Vick"](https://yoruwitch.github.io/pdmv/), marca de [Sueli Ferreira](https://instagram.com/prof.sueliferreira) e de [Jéssica Ferreira](htts://instagram.com/prof.gskferreira) com o intuito de ajudar a divulgar o seu produto e praticar habilidades de Front End.
+Site institucional e estático para ["Pão de Mel da Vick"](https://yoruwitch.github.io/pdmv/), marca de [Sueli Ferreira](https://instagram.com/prof.sueliferreira) e de [Jéssica Ferreira](https://instagram.com/prof.gskferreira) com o intuito de ajudar a divulgar o seu produto e praticar habilidades de Front End.
 
 
