@@ -1,0 +1,23 @@
+:root {
+    --yellow: #F8A931;
+    --dark-brown: #320B00;
+    --light-brown: #553122;
+    --pink: #FFD495;
+}
+
+*, html {
+    margin: 0;
+}
+
+.navbar {
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.navbar-logo {
+    height: auto;
+    width: 30%;
+}
+
