@@ -1,0 +1,27 @@
+/*Footer:::*/
+
+a {
+  text-decoration: none;
+  color: #320b00;
+}
+
+footer {
+  
+  display: flex;
+  justify-content: center;
+  background-color: #f8a931;
+  color: #320b00;
+  position: relative;
+  width: 411px;
+  height: 175px;
+}
+
+footer img {
+  border: solid 1px black;
+  width: 142px;
+  height: 132px;
+}
+
+.text-footer {
+  border: solid 1px black;
+}
