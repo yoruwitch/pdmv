@@ -1,8 +1,34 @@
+
+:root {
+  --yellow: #F8A931;
+  --dark-brown: #320B00;
+  --light-brown: #553122;
+  --pink: #FFD495;
+}
+
+*, html {
+  margin: 0;
+}
+
+/*Navbar*/
+
+.navbar {
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.navbar-logo {
+  height: auto;
+  width: 30%;
+}
+
 /*Footer:::*/
 
 a {
   text-decoration: none;
-  color: #320b00;
+  color: var(--light-brown);
   
 }
 
@@ -10,8 +36,8 @@ footer {
   
   display: flex;
   justify-content: center;
-  background-color: #f8a931;
-  color: #320b00;
+  background-color: var(--yellow);
+  color: var();
   position: relative;
   width: 411px;
   height: 175px;
@@ -26,4 +52,5 @@ footer img {
 
 .text-footer {
   border: solid 1px black;
+  flex-direction: column;
 }
