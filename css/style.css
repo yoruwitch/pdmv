@@ -9,15 +9,36 @@
     margin: 0;
 }
 
+/*      NAVBAR      */
 .navbar {
+    align-items: center;
     background-color: var(--yellow);
     display: flex;
     justify-content: center;
     padding: 5px;
 }
 
-.navbar-logo {
-    height: auto;
-    width: 30%;
+.navbar-logo-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
 }
 
+.navbar-icon-container {
+    display: flex;
+    flex-grow: 1 ;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+.navbar-logo {
+    height: auto;
+    width: 25%;
+}
+
+.navbar-menu-icon {
+    color: var(--dark-brown);
+    font-size: 2.5em;
+    /* margin-left: 30%; */
+
+}
