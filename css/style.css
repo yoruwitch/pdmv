@@ -28,29 +28,24 @@
 
 a {
   text-decoration: none;
-  color: var(--light-brown);
   
+}
+
+a, footer {
+  color: var(--light-brown);
+  font-family: 'ClearSans-Bold';
 }
 
 footer {
-  
   display: flex;
   justify-content: center;
   background-color: var(--yellow);
-  color: var();
   position: relative;
-  width: 411px;
-  height: 175px;
-  
+  padding: 15px;
 }
 
 footer img {
-  border: solid 1px black;
   width: 142px;
   height: 132px;
 }
 
-.text-footer {
-  border: solid 1px black;
-  flex-direction: column;
-}
