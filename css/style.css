@@ -15,30 +15,68 @@
     background-color: var(--yellow);
     display: flex;
     justify-content: center;
-    padding: 5px;
+    padding: 0.6em;
 }
 
 .navbar-logo-container {
     display: flex;
-    flex-grow: 1;
-    justify-content: flex-end;
+    flex-grow: 2;
+    justify-content: center !important;
+    margin-left: 22.5%;
 }
 
 .navbar-icon-container {
-    display: flex;
-    flex-grow: 1 ;
     justify-content: flex-end;
     margin-right: 10%;
+    visibility: hidden; /* retirar quando houver outras páginas */
 }
 
 .navbar-logo {
     height: auto;
-    width: 25%;
+    width: 35%;
 }
 
 .navbar-menu-icon {
     color: var(--dark-brown);
     font-size: 2.5em;
-    /* margin-left: 30%; */
+    visibility: hidden;
+}
 
+.navbar-menu {
+    font-size: 0.8em;
+    height: 0;
+    width: 0;
+}
+
+/* MEDIA QUERY DA NAVBAR: */
+@media (min-width: 768px) {
+
+    .navbar {
+        align-items: center;
+        background-color: var(--yellow);
+        display: flex;
+        padding: 0.4em;
+    }
+    
+    .navbar-logo-container {
+        flex-grow: 2;
+        justify-content: flex-start !important;
+        margin-left: 5%;
+    }
+
+    .navbar-logo {
+        height: auto;
+        width: 9%;
+    }
+
+    .navbar-menu-icon {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 900px) {
+    .navbar-logo {
+        height: auto;
+        width: 7.5%;
+    }
 }
